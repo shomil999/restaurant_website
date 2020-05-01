@@ -23,7 +23,7 @@
             <button class="navbar toggler" type="button" data-toggle="collapse" data-target="#Navbar">         <!--navbar-toggler means for small screen sizes all navigations will come under one button-->
              <span class="navbar-toggler-icon"></span>                            <!--navbar toggler-icon means three lines icon for toggler button-->                                                    
             </button>
-            <a class="navbar-brand mr-auto" href ="#"> Ristorante Con Fusion</a>     <!-- navbar brand ..logo or name or link to home page of website-->
+            <a class="navbar-brand mr-auto" href ="#"><img src="img/logo.png" height="30" width="41" ></a>     <!-- navbar brand ..logo or name or link to home page of website-->
             <div class="collapse navbar-collapse" id="Navbar">                       <!-- navbar collapses for small scree sizes-->
             <ul class="navbar-nav mr-auto">                                          <!--mr-auto means content will be pushed as right as possible with proper margin-->
                 <li class="nav-item active"> <a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home </a></li>
@@ -41,7 +41,8 @@
                     <h1>Ristorante con Fusion</h1>
                     <p class="d-none d-sm-block">We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm align-self-center">
+                  <img src="img/logo.png" class="img-fluid">       <!--img for inserting image...img-fluid for responsive image-->
                 </div>
             </div>
         </div>
@@ -53,11 +54,15 @@
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
-                <h2>Uthappizza</h2>
-                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
-            </div>
+                <div class="media">
+                   <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthappizza">
+                   <div class="media-body">
+                    <h2 class="mt-0">Uthappizza</h2>  <!--mt-0 means 0 margin from top-->
+                    <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                   </div>
+                 </div>
         </div>
-
+        </div>
 
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3">
@@ -70,13 +75,20 @@
         </div>
 
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md-3">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
-            <div class="col col-sm col-md">
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-fleax mr-3 img-thumbnail align-self-center" src="img/alberto.png" alt="alberto">
+                    <div class="media-body">
+                        <h2 class="mt-0">Alberto Somayya</h2>
+                        <h4>Executive Chef</h4>
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                    </div> 
+                </div>
+
+               
             </div>
         </div>
     </div>
